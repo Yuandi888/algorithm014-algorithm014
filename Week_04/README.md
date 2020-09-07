@@ -4,6 +4,14 @@
 
 
 
+# DFS 和 BFS 经验总结
+
+DFS深度优先用递归或栈stack
+
+BFS广度优先用队列queue，先进先出
+
+
+
 # DFS代码(Depth-First-Search)
 
 ## DFS代码 - 递归写法
@@ -64,6 +72,8 @@ def BFS(graph, start, end):
     nodes = generate_related_nodes(node)
     queue.push(nodes) # 其实就是list.append(nodes)
 ```
+
+
 
 
 
